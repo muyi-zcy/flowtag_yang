@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">flowlibrarylib</string>
+    <string name="flowLayout_set_edit_tips">"请先添加标签"</string>
+
+</resources>
