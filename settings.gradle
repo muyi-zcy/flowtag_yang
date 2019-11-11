@@ -1,2 +1,2 @@
-include ':app', ':flowtag_yang'
+include ':app', ':flowtag_yang', ':slidingtab_yang'
 rootProject.name='flowtag'

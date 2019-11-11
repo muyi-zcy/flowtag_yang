@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/flowtag_yang" />
+            <option value="$PROJECT_DIR$/slidingtab_yang" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

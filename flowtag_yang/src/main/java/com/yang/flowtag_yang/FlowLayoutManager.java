@@ -69,6 +69,15 @@ public class FlowLayoutManager {
      */
     private boolean isEdit;
 
+
+    public ArrayList<String> endData(){
+        ArrayList<String> tagList=new ArrayList<String>();
+        for(TagInfo tagInfo:getMyTagInfos()){
+            tagList.add(tagInfo.tagName);
+        }
+        return tagList;
+    }
+
     public FlowLayoutManager(Context context, View view, int newsTag, int news_tag_list_view){
         this.context=context;
         this.flowLayout=view.findViewById(newsTag);
