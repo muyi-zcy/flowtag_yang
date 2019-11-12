@@ -11,3 +11,5 @@
     app:childViewPadding = "50"                                  //标签内容与标签边界的距离
     app:deleteIconWidth = "60"                                   //删除图标宽高大小
     app:flowLayoutTextSize="30" />                               //标签内文字大小
+
+
