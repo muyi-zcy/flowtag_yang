@@ -1,22 +1,18 @@
 package com.yang.flowtag;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.yang.flowtag_yang.FlowLayout;
 import com.yang.flowtag_yang.FlowLayoutManager;
 import com.yang.flowtag_yang.TagInfo;
 import com.yang.flowtag_yang.listener.OnTagClickListener;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class TagActivity extends AppCompatActivity {
@@ -110,6 +106,7 @@ public class TagActivity extends AppCompatActivity {
          * 设置选中标签
          */
         flowLayoutManager.setSelectTagId(4);
+
         flowLayoutManager.setTags(tagsDefault,tagsRecommend,tag);
 
         tag_edit.setVisibility(View.VISIBLE);

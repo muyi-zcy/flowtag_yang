@@ -70,6 +70,10 @@ public class FlowLayoutManager {
     private boolean isEdit;
 
 
+    /**
+     * 获取最终"我的标签"
+     * @return
+     */
     public ArrayList<String> endData(){
         ArrayList<String> tagList=new ArrayList<String>();
         for(TagInfo tagInfo:getMyTagInfos()){
@@ -141,6 +145,10 @@ public class FlowLayoutManager {
         initTagDefault();
     }
 
+    /**
+     * 删除标签
+     * @param tagInfo
+     */
     public void deleteTag(TagInfo tagInfo){
         //把删除的标签
         getRecommondTagInfos().add(0,tagInfo);
@@ -148,6 +156,10 @@ public class FlowLayoutManager {
         tagListViewAdapter.notifyDataSetChanged();
     }
 
+    /**
+     * 添加标签
+     * @param tagInfo
+     */
     public void addTag(TagInfo tagInfo){
         getRecommondTagInfos().remove(tagInfo);//移除
         setListFormatData();
