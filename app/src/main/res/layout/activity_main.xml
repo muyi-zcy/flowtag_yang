@@ -13,7 +13,7 @@
     <LinearLayout
         android:id="@+id/frameMenu"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         >
 
@@ -27,7 +27,7 @@
             <LinearLayout
                 android:id="@+id/layout_1"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#000000">
                 <TextView
@@ -43,7 +43,7 @@
             <LinearLayout
                 android:id="@+id/layout_2"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#FF0000">
 
